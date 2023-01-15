@@ -1,11 +1,6 @@
 import json
 from math import ceil
 import requests
-#ИСПОЛЬЗОВАТЬ ГЕНЕРАТОРЫ ДЛЯ УСКОРЕНИЯ
-#Сравнивать айдишники или названия и добавлять новое
-#Показать половину товаров/показать всё/указать количество страниц
-#ДОБАВИТЬ КНОПКУ СТОП
-#ПОставить логгер
 
 def trees():
     cookies = {
@@ -39,7 +34,7 @@ def trees():
         'Accept-Language': 'ru,en;q=0.9',
         'Connection': 'keep-alive',
         'Content-Type': 'application/json;charset=UTF-8',
-        # 'Cookie': 'disp_react_aa=2; ggr-widget-test=1; cookie_accepted=true; _ym_uid=1671996902301922019; _ym_d=1671996902; iap.uid=608ad786f51848c18160e73a8761c8ef; aplaut_distinct_id=dmJgxheuULpc; tmr_lvid=652d8ccaf04f2babdb2f7898a6b789de; tmr_lvidTS=1671996902610; uxs_uid=3a904f50-848b-11ed-b2e5-dfb29d3438c3; adrcid=AUbwCcz7rHU1o-u5LngDbCA; sawOPH=true; _gaexp=GAX1.2.GZ3bpEk7SZWRKA8-8Sbb2Q.19410.0!AmcF_S-hTZCjLH5fYtcljQ.19406.0; _gid=GA1.2.834227449.1672220611; lastConfirmedRegionID=34; _regionID=34; _ym_isad=2; qrator_jsr=1672338402.853.qLkAttOwTackkdFK-4ggrc4lf52frqect3mlsri259mjakrbb-00; qrator_jsid=1672338402.853.qLkAttOwTackkdFK-hd0qfnau5c8p0713a648b9hrk50q1v6q; GACookieStorage=GA1.2.422718309.1671996902; _dc_gtm_UA-20946020-1=1; _ga=GA1.2.422718309.1671996902; _ga_Z72HLV7H6T=GS1.1.1672338406.8.1.1672338499.0.0.0',
+  
         'Origin': 'https://leroymerlin.ru',
         'Referer': 'https://leroymerlin.ru/',
         'Sec-Fetch-Dest': 'empty',
